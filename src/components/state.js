@@ -1,5 +1,6 @@
 import React,{useEffect, useState} from 'react'
 import './state.css';
+import uuid from 'react-uuid'
 
 const State = () => {
 const[state,setState] = useState([]);
@@ -23,6 +24,7 @@ const getState = async () =>
             <table className="customers table table-responsive">
             <center><thead>
              <tr>
+             <th><center>Sr. No.</center></th>             
     <th><center>State/UT</center></th>
     <th><center>CONFIRMED</center></th>
     <th><center>RECOVERED</center></th>
@@ -41,6 +43,7 @@ const getState = async () =>
               return(
                   <>
                    <tr>
+                   <td>{uuid()}</td>                   
     <td>{curElem.state}</td>
     <td>{curElem.confirmed}</td>
     <td>{curElem.recovered}</td>
