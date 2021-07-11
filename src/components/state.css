@@ -2,26 +2,33 @@
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    counter-reset: serial-number;
   }
   
   .customers td, .customers th {
     border: 1px solid #ddd;
     padding: 8px;
   }
+  .customers td:first-child:before {
+    counter-increment: serial-number;  /* Increment the serial number counter */
+    content: counter(serial-number);  /* Display the counter */
+  }
   
-  .customers tr:nth-child(even){background-color: #f2f2f2;}
+  .customers tr:nth-child(even){background-color: #929292;}
+  .customers tr:nth-child(odd){background-color: #ffffff;}
   
   .customers td:hover:nth-child(1) {background-color: green;}
   .customers td:hover:nth-child(2) {background-color: green;}
   .customers td:hover:nth-child(3) {background-color: green;}
-  .customers td:hover:nth-child(4) {background-color: red;}
-  .customers td:hover:nth-child(5) {background-color: green;}
+  .customers td:hover:nth-child(4) {background-color: green;}
+  .customers td:hover:nth-child(5) {background-color: red;}
   .customers td:hover:nth-child(6) {background-color: green;}
+  .customers td:hover:nth-child(7) {background-color: green;}
   
   .customers th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color:black;
+    background-color:#929292;
     color: white;
   }

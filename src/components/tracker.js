@@ -24,18 +24,17 @@ const Tracker = () => {
         <>
         
             <center>
-            <h1 className="p-5">COVID-19 TRACKING APP</h1>
-           </center>     
+            </center>     
            <div className="row">
            <div className="column">
            <div className="card3">
-           <h2><span>TOTAL</span>&nbsp;CONFIRMED</h2>
+           <h2><span>TOTAL</span><center>CONFIRMED</center></h2>
              <h1>{data.confirmed}</h1>
              </div>
               </div>
             <div className="column">
              <div className="card2">
-             <h2><span>TOTAL</span>&nbsp;RECOVERED</h2>
+             <h2><span>TOTAL</span><center>RECOVERED</center></h2>
              <h1>{data.recovered}</h1>
              </div>
             </div>
@@ -44,20 +43,20 @@ const Tracker = () => {
   
             <div className="column">
                 <div className="card4">
-                <h2><span>TOTAL</span>&nbsp;DEATHS</h2>
+                <h2><span>TOTAL</span><center>DEATHS</center></h2>
                  <h1>{data.deaths}</h1>
                 </div>
             </div>
             
              <div className="column">
                 <div className="card5">
-                <h2><span>TOTAL</span>&nbsp;ACTIVE</h2>
+                <h2><span>TOTAL</span><center>ACTIVE</center></h2>
                  <h1>{data.active}</h1>
                 </div>
             </div>
             <div className="column">
                 <div className="card6">
-                <h2><span>LAST</span>&nbsp;UPDATED</h2>
+                <h2><span>LAST</span><center>UPDATED</center></h2>
                  <h1>{data.lastupdatedtime}</h1> 
    
                 </div>
