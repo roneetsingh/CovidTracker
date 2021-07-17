@@ -19,7 +19,7 @@
 
 • Tech Used: ReactJS, HTML, CSS.
 
-• API: api.covid19india.org
+• API: [api.covid19india.org](https://api.covid19india.org/)
 
 ## Demo
 
