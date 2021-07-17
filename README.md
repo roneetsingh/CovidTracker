@@ -1,6 +1,70 @@
+# Covid-19 Tracker
+
+## Table of contents
+
+- [Introduction](#introduction)
+- [Demo](#demo)
+- [Technology](#technology)
+- [Features](#features)
+- [Run](#run)
+- [License](#license)
+- [Known Bugs](#known-bugs)
+- [Getting Started with Create React App](#getting-started-with-create-react-app)
+
+## Introduction
+
+• A simple website to track Covid-19 cases across the country.
+
+• The website contains statewise data for India.
+
+• Tech Used: ReactJS, HTML, CSS.
+
+• API: api.covid19india.org
+
+## Demo
+
 ![tracker](https://user-images.githubusercontent.com/56071565/125618708-63486cc7-491e-484a-b805-b206a06dcb0d.png)
 ![statewise](https://user-images.githubusercontent.com/56071565/125618947-72490bb9-085f-42b3-865c-7b3a2a35c0dc.png)
 ![statewise1](https://user-images.githubusercontent.com/56071565/125618943-3079a886-3a6c-4675-8ed5-2d8d10e929e5.png)
+
+The application is deployed on Heroku and can be accessed through the following link:
+
+[Covid-19 Tracker on Heroku](https://covidtrackerjs.herokuapp.com/)
+
+This website lists the real-time figures of all the states from India.
+
+## Technology
+
+The application is built with:
+
+- ReactJS
+- HTML
+- CSS
+
+## Features
+
+The application displays a single page website to track covid cases.
+
+Users can do the following:
+
+- Track total cases across the country.
+- Track cases of their state.
+- Access the Covid Dashboard for crowdsourced leads.
+
+## Run
+
+- To run this application, please head to [Getting Started with Create React App](#getting-started-with-create-react-app)
+
+## License
+
+[![License](https://img.shields.io/:License-MIT-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- MIT License
+- Copyright 2021 © [Roneet Kumar Singh](https://github.com/roneetsingh)
+
+## Known Bugs
+
+- While generating new meme templates, often some of them are not top-bottom text compatible. (For e.g. Multi-text templates) 
 
 # Getting Started with Create React App
 
