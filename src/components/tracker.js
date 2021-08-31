@@ -7,7 +7,7 @@ const Tracker = () => {
        const getCovidData = async() =>
        {
           
-            const api = await fetch("https://api.covid19india.org/data.json");
+            const api = await fetch("https://data.covid19india.org/data.json");
             const data = await api.json();
             //console.log(data.statewise[21]);
            setUpdate(data.statewise[0]);
